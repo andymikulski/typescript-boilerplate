@@ -1,0 +1,1 @@
+define("app",["require","exports"],function(){var n=function(){function n(){}return n.prototype.init=function(){console.log(["App init!"])},n}();return n}),define("main",["require","exports","app"],function(n,i,e){var t=function(){function n(){var n=new e;n.init()}return n}();new t});
